@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p style="text-align: right" id="abc"></p>
+<script>
+    //bt1
+    // let fibo = "";
+    // let number = parseInt(prompt("Enter a number"));
+    // for (let i=0 ; i< number;i++){
+    //     fibo += fibonaci(i) + " ";
+    // }
+    // alert(fibo);
+    // function fibonaci(num) {
+    //     let f0 = 0;
+    //     let f1 = 1;
+    //     let fn = 1;
+    //     if (num < 0) {
+    //         return -1;
+    //     } else if ((num === 0) || (num === 1)) {
+    //         return num;
+    //     } else {
+    //         for (let i = 2; i < num; i++) {
+    //             f0 = f1;
+    //             f1 = fn;
+    //             fn = f0 + f1;
+    //
+    //         }
+    //     }
+    //     return fn;
+    //
+    // }
+    //bt2
+    // let  factorialx;
+    // factorialx = 1;
+    // function giaiThua(number) {
+    // for ( i = 1; i <= number; i++) {
+    //     factorialx *= i;
+    // }
+    // alert(factorialx);
+    //
+    // }
+    // console.log(giaiThua(5));
+//bt3
+    let str= "";
+     for (let i = 1;i <=5;i++){
+         for(j=1;j<=i;j++){
+             str += ("*");
+         }
+         str += ("<br>");
+     }
+     document.getElementById("abc").innerHTML = str;
+//     for (let i = 5; i >=0 ; i-- ) {
+//         for (let j = 1; j <= i; j++) {
+//             document.write("*");
+//         }
+//         document.write("<br>");
+//     }
+//      for(let i = 5 ; i >=1;i--){
+//          for(let j= 5; j >=i; j--){
+//              document.write("*");
+//          }
+//          document.write("<br>");
+//      }
+//     let  str ="";
+//      for(i = 1;i<=4;i++) {
+//          for (j = 1; j <= 6; j++) {
+//              if (j === 1 || i === 4 || i === 1 || j === 6) {
+//                  str += "*";
+//              } else
+//                  str += "&nbsp;&nbsp;";
+//          }
+//          str += "<br>";
+//      }
+//          document.write(str);
+    //bt5
+
+</script>
+</body>
+</html>
